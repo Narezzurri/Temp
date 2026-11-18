@@ -16,5 +16,6 @@ jobs:
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: "🤖:Mail from Github Action"
+          from: GitHub Actions Bot <${{ secrets.MAIL_USERNAME }}>
           to: ${{ secrets.MAIL_TO }}
           # attachments: 
