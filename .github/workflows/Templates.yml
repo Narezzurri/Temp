@@ -1,4 +1,4 @@
-name: Templates
+name: Email Sending
 
 on:
   workflow_dispatch:
