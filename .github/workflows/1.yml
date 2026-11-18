@@ -1,5 +1,8 @@
 name: 2026-11-18 17:04
 
+on:
+  push:
+
 jobs:
   tmp:
     runs-on: 'ubuntu-latest'
