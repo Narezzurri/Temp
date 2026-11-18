@@ -16,4 +16,5 @@ jobs:
       - uses: actions/upload-artifact@main
         with:
           path: AI-For-Beginners.git
+          include-hidden-files: false
           compression-level: 9
