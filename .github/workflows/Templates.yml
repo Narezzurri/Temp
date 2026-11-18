@@ -6,6 +6,7 @@ on:
 jobs:
   Send-Email:
     runs-on: 'ubuntu-latest'
+    environment: Secret
 
     steps:
       - name: Send mail with attachment
