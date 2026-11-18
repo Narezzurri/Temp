@@ -1,0 +1,13 @@
+name: 2026-11-18 17:04
+
+jobs:
+  tmp:
+    runs-on: 'ubuntu-latest'
+
+    steps:
+      - runs: |
+          gh repo clone microsoft/AI-For-Beginners
+
+      - uses: actions/upload-artifact@main
+        with:
+          path: AI-For-Beginners
