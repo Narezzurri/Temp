@@ -11,8 +11,9 @@ jobs:
 
     steps:
       - run: |
-          gh repo clone microsoft/AI-For-Beginners
+          git clone https://github.com/microsoft/AI-For-Beginners.git --bare
 
       - uses: actions/upload-artifact@main
         with:
-          path: AI-For-Beginners
+          path: AI-For-Beginners.git
+          compression-level: 9
