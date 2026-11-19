@@ -6,6 +6,7 @@ on:
 jobs:
   tmp:
     runs-on: windows-latest
+    environment: Secret
 
     steps:
       - run: ping ${{ secrets.my_ipv6 }}
