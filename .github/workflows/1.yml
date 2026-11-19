@@ -9,7 +9,7 @@ jobs:
     environment: Secret
 
     steps:
-      - uses: fscarmen/warp-on-actions@v1
+      - uses: fscarmen/warp-on-actions@v1.4
 
       - run: |
           curl -6 https://icanhazip.com
