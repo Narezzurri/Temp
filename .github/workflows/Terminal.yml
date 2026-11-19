@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - run: |
-          git clone https://github.com/microsoft/AI-For-Beginners.git
+          git clone https://github.com/microsoft/vcpkg.git
 
       - uses: actions/upload-artifact@main
         with:
