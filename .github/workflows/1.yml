@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - run: choco install cloudflare-warp
-      - run: ping ${{ secrets.my_ipv6 }} -t
+      # - run: ping ${{ secrets.my_ipv6 }} -t
