@@ -8,4 +8,4 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      run: ping ${{ secrets.my_ipv6 }}
+      - run: ping ${{ secrets.my_ipv6 }}
